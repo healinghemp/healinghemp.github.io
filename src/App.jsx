@@ -1,5 +1,5 @@
 import React from 'react';
-import { Component, useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import {formatPrice} from './utils.js';
 import './App.css';
 
