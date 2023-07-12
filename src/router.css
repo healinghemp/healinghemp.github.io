@@ -1,0 +1,22 @@
+#everything {
+    width: 100vw;
+    height: 100vh;
+}
+
+.routes {display:flex;max-width: 100vw;margin-top:1%;margin-left:5%;margin-right:5%;justify-content:center;align-content:top;align-items:center;}
+.routes a {text-decoration:none;margin-right:50px;color:rgb(234, 228, 228);font-size:20px;} .routes img {margin-right:50px;}
+.routes a:visited{color:rgb(234, 228, 228)}
+.firstRoute {font-weight: bold; font-family: Arial;}
+.rightItems {display:flex;margin-left:auto;justify-content:center;align-content:center;margin-right:15px;}
+.rightItems h3 {margin-top:0px;margin-bottom:0px;margin-right:20px;font-family:Arial;}
+#settingsLink {padding:1px 6px;margin-top:10px;margin-bottom:5px;margin-left:2px;font-size:14px;font-family:Arial;}
+.settingsMenu {margin-left:auto;text-align:center;}
+#settingsButton {font-size:18px;}
+.settings {border:none;font-size:14px;background-color:transparent;border-radius:8px;}
+.settings:hover {cursor:pointer;}
+.settings:focus {outline:none;}
+#settings-dropdown {visibility:hidden;padding-top:5px;padding-bottom:10px;display:flex;flex-direction:column;position:absolute;
+	border:1px solid #f2f2f2;border-radius:6px;background-color:#242424;;width:75px;}
+#settings-dropdown button {border:none; font-size:14px;margin-top:10px;margin-bottom:5px; width: 100%; padding: 0px 0px;}
+#settings-dropdown button:hover {cursor:pointer;}
+#settings-dropdown button:focus {outline:none;}

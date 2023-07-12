@@ -1,0 +1,26 @@
+.App {display:flex;text-align:center;margin:2%;}
+.inventoryTable th {padding:10px;}
+.inventoryTable td {padding:4px 0px;border:1px solid grey;}
+.selectBar {display:flex;justify-content:center;align-items:center;}
+.selectBar p {margin-right:15px;} .selectBar select {margin-right:30px;}
+.selectBar button {margin-right:20px;}
+.masterStoreSelect {display:flex;justify-content:center;align-items:center;}
+.table {display:table;table-layout:fixed;max-height:600px;width:725px;background-color:#242424;border-radius:8px;padding:0px 30px;margin-right:50px;padding-bottom:20px;}
+.inventoryTable {table-layout:fixed;max-height:600px;width:725px;display:block;position:relative;overflow:auto;border-collapse:collapse;
+padding:0px 5px;}
+.inventoryTable {-ms-overflow-style: none;  /* Internet Explorer 10+ */scrollbar-width: none;  /* Firefox */}
+.inventoryTable::-webkit-scrollbar {display: none;  /* Safari and Chrome */}
+.inventoryTable tbody {max-height:600px;border:1px solid grey;}
+.inventoryTable input {background-color:#242424;border:none;text-align:center;font-size:16px;}
+.stockInput {padding: 2px 2px;width:50px;}
+.stockInput::-webkit-outer-spin-button,
+.stockInput::-webkit-inner-spin-button {-webkit-appearance: none;margin: 0;}
+.stockInput[type=number] {-moz-appearance: textfield;} /* Firefox */
+.offcount {width:50px;}
+.loss {width:50px;}
+.commentInput {margin:0px 6px; padding: 2px 2px;width:150px;vertical-align:middle;}
+.commentInput[type=text] {border:0;margin-bottom:0px;font-size:12px;}
+.options {border-radius:8px;background-color:#242424;max-height:340px;margin-bottom:35px;}
+.options h4 {margin:20px 0px;}
+#restockItems {max-height:250px;overflow:auto;}
+.rightBar {display:flex;flex-direction:column;}

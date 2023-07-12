@@ -1,0 +1,4 @@
+.login {display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:100vh;margin-top:-75px;margin-left:-75px;}
+#form {display:inline-block;vertical-align:middle;}
+#loginBox input[type=text], #loginBox input[type=password] {height:25px;border:1px solid black;border-radius:4px;margin-bottom:1rem;}
+#loginBox textarea {box-shadow: 0 0 3px #ddd;resize:none;margin-bottom:1rem;}

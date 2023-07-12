@@ -1,0 +1,8 @@
+.userWindow {background-color:white;display:flex;flex-direction:column;align-items:center;width:600px;height:550px;position:fixed;border-radius:12px;}
+.newUserForm {margin-top:50px;display:flex;flex-direction:column;align-items:center;}
+.inputField {display:flex;justify-content:center;align-items:center;margin-bottom:50px;}
+.inputField input {margin-left:20px;margin-bottom:0px;}
+.inputField h4 {margin-top:0px;margin-bottom:0px;width:100px;}
+.inputs p {font-size:14px;text-align:center;margin:0px 0px;}
+#newUserForm input[type=text], input[type=password] {height:25px;border:1px solid black;border-radius:4px;}
+
